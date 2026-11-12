@@ -1,0 +1,16 @@
+{
+  "datasetVersion": "synthetic-v1",
+  "epsilonTotal": 2,
+  "epsilonQuery": 0.25,
+  "contributionLimit": 1,
+  "allowed": {
+    "region": [
+      "east",
+      "west"
+    ],
+    "industry": [
+      "food",
+      "tech"
+    ]
+  }
+}

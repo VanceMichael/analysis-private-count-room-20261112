@@ -1,0 +1,12 @@
+[
+  {
+    "key": "east",
+    "count": 48,
+    "sum": 112
+  },
+  {
+    "key": "west",
+    "count": 48,
+    "sum": 128
+  }
+]

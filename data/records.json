@@ -1,0 +1,773 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "person": "p0",
+      "region": "east",
+      "industry": "food",
+      "day": 1,
+      "visits": 1,
+      "id": "r0000"
+    },
+    {
+      "person": "p0",
+      "region": "east",
+      "industry": "food",
+      "day": 2,
+      "visits": 2,
+      "id": "r0001"
+    },
+    {
+      "person": "p0",
+      "region": "east",
+      "industry": "food",
+      "day": 3,
+      "visits": 3,
+      "id": "r0002"
+    },
+    {
+      "person": "p1",
+      "region": "west",
+      "industry": "food",
+      "day": 1,
+      "visits": 4,
+      "id": "r0003"
+    },
+    {
+      "person": "p1",
+      "region": "west",
+      "industry": "food",
+      "day": 2,
+      "visits": 1,
+      "id": "r0004"
+    },
+    {
+      "person": "p1",
+      "region": "west",
+      "industry": "food",
+      "day": 3,
+      "visits": 2,
+      "id": "r0005"
+    },
+    {
+      "person": "p2",
+      "region": "east",
+      "industry": "tech",
+      "day": 1,
+      "visits": 3,
+      "id": "r0006"
+    },
+    {
+      "person": "p2",
+      "region": "east",
+      "industry": "tech",
+      "day": 2,
+      "visits": 4,
+      "id": "r0007"
+    },
+    {
+      "person": "p2",
+      "region": "east",
+      "industry": "tech",
+      "day": 3,
+      "visits": 1,
+      "id": "r0008"
+    },
+    {
+      "person": "p3",
+      "region": "west",
+      "industry": "tech",
+      "day": 1,
+      "visits": 2,
+      "id": "r0009"
+    },
+    {
+      "person": "p3",
+      "region": "west",
+      "industry": "tech",
+      "day": 2,
+      "visits": 3,
+      "id": "r0010"
+    },
+    {
+      "person": "p3",
+      "region": "west",
+      "industry": "tech",
+      "day": 3,
+      "visits": 4,
+      "id": "r0011"
+    },
+    {
+      "person": "p4",
+      "region": "east",
+      "industry": "food",
+      "day": 1,
+      "visits": 1,
+      "id": "r0012"
+    },
+    {
+      "person": "p4",
+      "region": "east",
+      "industry": "food",
+      "day": 2,
+      "visits": 2,
+      "id": "r0013"
+    },
+    {
+      "person": "p4",
+      "region": "east",
+      "industry": "food",
+      "day": 3,
+      "visits": 3,
+      "id": "r0014"
+    },
+    {
+      "person": "p5",
+      "region": "west",
+      "industry": "food",
+      "day": 1,
+      "visits": 4,
+      "id": "r0015"
+    },
+    {
+      "person": "p5",
+      "region": "west",
+      "industry": "food",
+      "day": 2,
+      "visits": 1,
+      "id": "r0016"
+    },
+    {
+      "person": "p5",
+      "region": "west",
+      "industry": "food",
+      "day": 3,
+      "visits": 2,
+      "id": "r0017"
+    },
+    {
+      "person": "p6",
+      "region": "east",
+      "industry": "tech",
+      "day": 1,
+      "visits": 3,
+      "id": "r0018"
+    },
+    {
+      "person": "p6",
+      "region": "east",
+      "industry": "tech",
+      "day": 2,
+      "visits": 4,
+      "id": "r0019"
+    },
+    {
+      "person": "p6",
+      "region": "east",
+      "industry": "tech",
+      "day": 3,
+      "visits": 1,
+      "id": "r0020"
+    },
+    {
+      "person": "p7",
+      "region": "west",
+      "industry": "tech",
+      "day": 1,
+      "visits": 2,
+      "id": "r0021"
+    },
+    {
+      "person": "p7",
+      "region": "west",
+      "industry": "tech",
+      "day": 2,
+      "visits": 3,
+      "id": "r0022"
+    },
+    {
+      "person": "p7",
+      "region": "west",
+      "industry": "tech",
+      "day": 3,
+      "visits": 4,
+      "id": "r0023"
+    },
+    {
+      "person": "p8",
+      "region": "east",
+      "industry": "food",
+      "day": 1,
+      "visits": 1,
+      "id": "r0024"
+    },
+    {
+      "person": "p8",
+      "region": "east",
+      "industry": "food",
+      "day": 2,
+      "visits": 2,
+      "id": "r0025"
+    },
+    {
+      "person": "p8",
+      "region": "east",
+      "industry": "food",
+      "day": 3,
+      "visits": 3,
+      "id": "r0026"
+    },
+    {
+      "person": "p9",
+      "region": "west",
+      "industry": "food",
+      "day": 1,
+      "visits": 4,
+      "id": "r0027"
+    },
+    {
+      "person": "p9",
+      "region": "west",
+      "industry": "food",
+      "day": 2,
+      "visits": 1,
+      "id": "r0028"
+    },
+    {
+      "person": "p9",
+      "region": "west",
+      "industry": "food",
+      "day": 3,
+      "visits": 2,
+      "id": "r0029"
+    },
+    {
+      "person": "p10",
+      "region": "east",
+      "industry": "tech",
+      "day": 1,
+      "visits": 3,
+      "id": "r0030"
+    },
+    {
+      "person": "p10",
+      "region": "east",
+      "industry": "tech",
+      "day": 2,
+      "visits": 4,
+      "id": "r0031"
+    },
+    {
+      "person": "p10",
+      "region": "east",
+      "industry": "tech",
+      "day": 3,
+      "visits": 1,
+      "id": "r0032"
+    },
+    {
+      "person": "p11",
+      "region": "west",
+      "industry": "tech",
+      "day": 1,
+      "visits": 2,
+      "id": "r0033"
+    },
+    {
+      "person": "p11",
+      "region": "west",
+      "industry": "tech",
+      "day": 2,
+      "visits": 3,
+      "id": "r0034"
+    },
+    {
+      "person": "p11",
+      "region": "west",
+      "industry": "tech",
+      "day": 3,
+      "visits": 4,
+      "id": "r0035"
+    },
+    {
+      "person": "p12",
+      "region": "east",
+      "industry": "food",
+      "day": 1,
+      "visits": 1,
+      "id": "r0036"
+    },
+    {
+      "person": "p12",
+      "region": "east",
+      "industry": "food",
+      "day": 2,
+      "visits": 2,
+      "id": "r0037"
+    },
+    {
+      "person": "p12",
+      "region": "east",
+      "industry": "food",
+      "day": 3,
+      "visits": 3,
+      "id": "r0038"
+    },
+    {
+      "person": "p13",
+      "region": "west",
+      "industry": "food",
+      "day": 1,
+      "visits": 4,
+      "id": "r0039"
+    },
+    {
+      "person": "p13",
+      "region": "west",
+      "industry": "food",
+      "day": 2,
+      "visits": 1,
+      "id": "r0040"
+    },
+    {
+      "person": "p13",
+      "region": "west",
+      "industry": "food",
+      "day": 3,
+      "visits": 2,
+      "id": "r0041"
+    },
+    {
+      "person": "p14",
+      "region": "east",
+      "industry": "tech",
+      "day": 1,
+      "visits": 3,
+      "id": "r0042"
+    },
+    {
+      "person": "p14",
+      "region": "east",
+      "industry": "tech",
+      "day": 2,
+      "visits": 4,
+      "id": "r0043"
+    },
+    {
+      "person": "p14",
+      "region": "east",
+      "industry": "tech",
+      "day": 3,
+      "visits": 1,
+      "id": "r0044"
+    },
+    {
+      "person": "p15",
+      "region": "west",
+      "industry": "tech",
+      "day": 1,
+      "visits": 2,
+      "id": "r0045"
+    },
+    {
+      "person": "p15",
+      "region": "west",
+      "industry": "tech",
+      "day": 2,
+      "visits": 3,
+      "id": "r0046"
+    },
+    {
+      "person": "p15",
+      "region": "west",
+      "industry": "tech",
+      "day": 3,
+      "visits": 4,
+      "id": "r0047"
+    },
+    {
+      "person": "p16",
+      "region": "east",
+      "industry": "food",
+      "day": 1,
+      "visits": 1,
+      "id": "r0048"
+    },
+    {
+      "person": "p16",
+      "region": "east",
+      "industry": "food",
+      "day": 2,
+      "visits": 2,
+      "id": "r0049"
+    },
+    {
+      "person": "p16",
+      "region": "east",
+      "industry": "food",
+      "day": 3,
+      "visits": 3,
+      "id": "r0050"
+    },
+    {
+      "person": "p17",
+      "region": "west",
+      "industry": "food",
+      "day": 1,
+      "visits": 4,
+      "id": "r0051"
+    },
+    {
+      "person": "p17",
+      "region": "west",
+      "industry": "food",
+      "day": 2,
+      "visits": 1,
+      "id": "r0052"
+    },
+    {
+      "person": "p17",
+      "region": "west",
+      "industry": "food",
+      "day": 3,
+      "visits": 2,
+      "id": "r0053"
+    },
+    {
+      "person": "p18",
+      "region": "east",
+      "industry": "tech",
+      "day": 1,
+      "visits": 3,
+      "id": "r0054"
+    },
+    {
+      "person": "p18",
+      "region": "east",
+      "industry": "tech",
+      "day": 2,
+      "visits": 4,
+      "id": "r0055"
+    },
+    {
+      "person": "p18",
+      "region": "east",
+      "industry": "tech",
+      "day": 3,
+      "visits": 1,
+      "id": "r0056"
+    },
+    {
+      "person": "p19",
+      "region": "west",
+      "industry": "tech",
+      "day": 1,
+      "visits": 2,
+      "id": "r0057"
+    },
+    {
+      "person": "p19",
+      "region": "west",
+      "industry": "tech",
+      "day": 2,
+      "visits": 3,
+      "id": "r0058"
+    },
+    {
+      "person": "p19",
+      "region": "west",
+      "industry": "tech",
+      "day": 3,
+      "visits": 4,
+      "id": "r0059"
+    },
+    {
+      "person": "p20",
+      "region": "east",
+      "industry": "food",
+      "day": 1,
+      "visits": 1,
+      "id": "r0060"
+    },
+    {
+      "person": "p20",
+      "region": "east",
+      "industry": "food",
+      "day": 2,
+      "visits": 2,
+      "id": "r0061"
+    },
+    {
+      "person": "p20",
+      "region": "east",
+      "industry": "food",
+      "day": 3,
+      "visits": 3,
+      "id": "r0062"
+    },
+    {
+      "person": "p21",
+      "region": "west",
+      "industry": "food",
+      "day": 1,
+      "visits": 4,
+      "id": "r0063"
+    },
+    {
+      "person": "p21",
+      "region": "west",
+      "industry": "food",
+      "day": 2,
+      "visits": 1,
+      "id": "r0064"
+    },
+    {
+      "person": "p21",
+      "region": "west",
+      "industry": "food",
+      "day": 3,
+      "visits": 2,
+      "id": "r0065"
+    },
+    {
+      "person": "p22",
+      "region": "east",
+      "industry": "tech",
+      "day": 1,
+      "visits": 3,
+      "id": "r0066"
+    },
+    {
+      "person": "p22",
+      "region": "east",
+      "industry": "tech",
+      "day": 2,
+      "visits": 4,
+      "id": "r0067"
+    },
+    {
+      "person": "p22",
+      "region": "east",
+      "industry": "tech",
+      "day": 3,
+      "visits": 1,
+      "id": "r0068"
+    },
+    {
+      "person": "p23",
+      "region": "west",
+      "industry": "tech",
+      "day": 1,
+      "visits": 2,
+      "id": "r0069"
+    },
+    {
+      "person": "p23",
+      "region": "west",
+      "industry": "tech",
+      "day": 2,
+      "visits": 3,
+      "id": "r0070"
+    },
+    {
+      "person": "p23",
+      "region": "west",
+      "industry": "tech",
+      "day": 3,
+      "visits": 4,
+      "id": "r0071"
+    },
+    {
+      "person": "p24",
+      "region": "east",
+      "industry": "food",
+      "day": 1,
+      "visits": 1,
+      "id": "r0072"
+    },
+    {
+      "person": "p24",
+      "region": "east",
+      "industry": "food",
+      "day": 2,
+      "visits": 2,
+      "id": "r0073"
+    },
+    {
+      "person": "p24",
+      "region": "east",
+      "industry": "food",
+      "day": 3,
+      "visits": 3,
+      "id": "r0074"
+    },
+    {
+      "person": "p25",
+      "region": "west",
+      "industry": "food",
+      "day": 1,
+      "visits": 4,
+      "id": "r0075"
+    },
+    {
+      "person": "p25",
+      "region": "west",
+      "industry": "food",
+      "day": 2,
+      "visits": 1,
+      "id": "r0076"
+    },
+    {
+      "person": "p25",
+      "region": "west",
+      "industry": "food",
+      "day": 3,
+      "visits": 2,
+      "id": "r0077"
+    },
+    {
+      "person": "p26",
+      "region": "east",
+      "industry": "tech",
+      "day": 1,
+      "visits": 3,
+      "id": "r0078"
+    },
+    {
+      "person": "p26",
+      "region": "east",
+      "industry": "tech",
+      "day": 2,
+      "visits": 4,
+      "id": "r0079"
+    },
+    {
+      "person": "p26",
+      "region": "east",
+      "industry": "tech",
+      "day": 3,
+      "visits": 1,
+      "id": "r0080"
+    },
+    {
+      "person": "p27",
+      "region": "west",
+      "industry": "tech",
+      "day": 1,
+      "visits": 2,
+      "id": "r0081"
+    },
+    {
+      "person": "p27",
+      "region": "west",
+      "industry": "tech",
+      "day": 2,
+      "visits": 3,
+      "id": "r0082"
+    },
+    {
+      "person": "p27",
+      "region": "west",
+      "industry": "tech",
+      "day": 3,
+      "visits": 4,
+      "id": "r0083"
+    },
+    {
+      "person": "p28",
+      "region": "east",
+      "industry": "food",
+      "day": 1,
+      "visits": 1,
+      "id": "r0084"
+    },
+    {
+      "person": "p28",
+      "region": "east",
+      "industry": "food",
+      "day": 2,
+      "visits": 2,
+      "id": "r0085"
+    },
+    {
+      "person": "p28",
+      "region": "east",
+      "industry": "food",
+      "day": 3,
+      "visits": 3,
+      "id": "r0086"
+    },
+    {
+      "person": "p29",
+      "region": "west",
+      "industry": "food",
+      "day": 1,
+      "visits": 4,
+      "id": "r0087"
+    },
+    {
+      "person": "p29",
+      "region": "west",
+      "industry": "food",
+      "day": 2,
+      "visits": 1,
+      "id": "r0088"
+    },
+    {
+      "person": "p29",
+      "region": "west",
+      "industry": "food",
+      "day": 3,
+      "visits": 2,
+      "id": "r0089"
+    },
+    {
+      "person": "p30",
+      "region": "east",
+      "industry": "tech",
+      "day": 1,
+      "visits": 3,
+      "id": "r0090"
+    },
+    {
+      "person": "p30",
+      "region": "east",
+      "industry": "tech",
+      "day": 2,
+      "visits": 4,
+      "id": "r0091"
+    },
+    {
+      "person": "p30",
+      "region": "east",
+      "industry": "tech",
+      "day": 3,
+      "visits": 1,
+      "id": "r0092"
+    },
+    {
+      "person": "p31",
+      "region": "west",
+      "industry": "tech",
+      "day": 1,
+      "visits": 2,
+      "id": "r0093"
+    },
+    {
+      "person": "p31",
+      "region": "west",
+      "industry": "tech",
+      "day": 2,
+      "visits": 3,
+      "id": "r0094"
+    },
+    {
+      "person": "p31",
+      "region": "west",
+      "industry": "tech",
+      "day": 3,
+      "visits": 4,
+      "id": "r0095"
+    }
+  ]
+}
