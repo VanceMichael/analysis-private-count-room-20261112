@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "node --test",
-    "build": "node --check src/cli.js && node --check src/domain.js && node --check src/dataset.js && node --check src/output.js",
+    "build": "node --check src/cli.js && node --check src/domain.js && node --check src/dataset.js && node --check src/output.js && node --check src/query.js && node --check src/privacy.js && node --check src/noise.js && node --check src/ledger.js && node --check src/privacy-count.js && node --check scripts/private-count-demo.js",
     "summary": "node src/cli.js summary",
-    "demo": "node scripts/demo.js"
+    "demo": "node scripts/demo.js && node scripts/private-count-demo.js"
   }
 }

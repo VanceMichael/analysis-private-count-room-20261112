@@ -1,8 +1,15 @@
 {
   "datasetVersion": "synthetic-v1",
-  "epsilonTotal": 2,
-  "epsilonQuery": 0.25,
-  "contributionLimit": 1,
+  "mechanism": "pure-epsilon",
+  "contributionLimit": 2,
+  "sensitivity": 1,
+  "epsilonQueryMicro": 250000,
+  "epsilonTotalMicro": 2000000,
+  "dayBuckets": [
+    1,
+    2,
+    3
+  ],
   "allowed": {
     "region": [
       "east",
@@ -12,5 +19,19 @@
       "food",
       "tech"
     ]
+  },
+  "partners": {
+    "expo-a": {
+      "shareBudget": true,
+      "epsilonBudgetMicro": 2000000
+    },
+    "expo-b": {
+      "shareBudget": true,
+      "epsilonBudgetMicro": 2000000
+    },
+    "expo-c": {
+      "shareBudget": false,
+      "epsilonBudgetMicro": 1000000
+    }
   }
 }

@@ -49,10 +49,10 @@ test('文件读取校验版本且指纹不依赖行序', async () => {
   const folder = await mkdtemp(join(tmpdir(), 'records-'));
   try {
     const path = join(folder, 'records.json');
-    await writeFile(path, JSON.stringify({version: 1, records: [...sample].reverse()}));
+    await writeFile(path, JSON.stringify({version: 1, datasetVersion: 'synthetic-v1', records: [...sample].reverse()}));
     const original = await loadDataset('data/records.json');
     assert.equal((await loadDataset(path)).fingerprint, original.fingerprint);
-    await writeFile(path, JSON.stringify({version: 2, records: []}));
+    await writeFile(path, JSON.stringify({version: 2, datasetVersion: 'synthetic-v1', records: []}));
     await assert.rejects(loadDataset(path), /版本/);
   } finally { await rm(folder, {recursive: true, force: true}); }
 });

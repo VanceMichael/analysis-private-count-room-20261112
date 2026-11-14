@@ -38,7 +38,11 @@ export async function loadDataset(path) {
   const document = JSON.parse(await readFile(path, 'utf8'));
   if (document.version !== 1) throw new Error('不支持的数据文件版本');
   validateRecords(document.records);
-  return { version: 1, records: document.records, fingerprint: fingerprint(
+  const datasetVersion = document.datasetVersion;
+  if (datasetVersion === undefined || typeof datasetVersion !== 'string' || datasetVersion.length === 0) {
+    throw new Error('数据文件缺少 datasetVersion');
+  }
+  return { version: 1, datasetVersion, records: document.records, fingerprint: fingerprint(
     [...document.records].sort((left, right) => left.id.localeCompare(right.id, 'en'))
   ) };
 }
